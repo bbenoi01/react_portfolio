@@ -1,0 +1,53 @@
+{
+  "name": "react_portfolio",
+  "version": "1.0.0",
+  "description": "React version of my portfolio",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint .",
+    "start": "npm run build && node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Benoit",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "serve-favicon": "^2.4.5",
+    "slick-carousel": "^1.8.1",
+    "twilio": "^3.11.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-loopback": "^10.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "postcss-loader": "^2.0.10",
+    "webpack": "^3.10.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
