@@ -15,7 +15,7 @@ export default class Into extends Component {
                         </div>
                         <div className="row center">
                             <div className="col l4 offset-l4 s12">
-                                <img className='img-fluid' src="me.png" alt="responsive img"/>
+                                <img className='img-fluid' src="Me.png" alt="responsive img"/>
                             </div>
                         </div>
                     </div>
